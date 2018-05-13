@@ -1,0 +1,38 @@
+
+#caract{
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    text-decoration: none solid rgb(51, 51, 51);
+    width: 400px;
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal 400 normal 14px / 18.2px Arial, sans-serif;
+
+}
+.color_movil{
+    border:1px solid black;
+    border-radius: 15%;
+}
+
+#caracteristicas{
+    display: inline-block;
+    width: 400px;
+    border: 0px none rgb(51, 51, 51);
+}
+#radiocarrusel{
+    margin-left: 80px;
+}
+
+
+#caracteristicas ul ol{
+    border: 50px;
+}
+
+#div2{
+     display: inline-block;
+}
+
+ol{
+    margin-bottom: 20px;
+}
+

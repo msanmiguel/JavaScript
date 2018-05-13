@@ -1,0 +1,85 @@
+
+
+<html>
+  <head>
+    <title>Ejercicio Jquery: Ficha tecnica iPhone 8</title>
+    <meta charset="utf-8"/>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <link href="fichaIphone.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+
+  <body>
+  	<h1>Apple iPhone 8</h1>
+	
+	<div id="#carrusel">
+  	<img id ="imagenMostrada" src="iphone1.png" alt="Apple iPhone 8">
+  </div>
+  <div id ="radioCarrusel">
+		<input id="radio1" name="imagenMovil" checked type="radio" value="iphone1.png" >
+		<input id="radio2" name="imagenMovil" type="radio" value="iphone2.png">
+		<input id="radio3" name="imagenMovil" type="radio" value="iphone3.png">
+		<input id="radio4" name="imagenMovil" type="radio" value="iphone4.png">
+  </div>
+
+	<ul>
+		<ol> <span>Color</span>
+			<img id="dorado" class= "color_movil" class="seleccionado" src="movil_gris.png" alt="Gris">
+			<img id="azul" class= "color_movil" src="movil_azul.png" alt="Azul">
+			<img id="negro" class= "color_movil" src="movil_negro.png" alt="Negro">
+		</ol>
+		<ol><span>Tarifas</span>
+		  <a href="#" id="tarifa1">Tarifa SUPERSMART</a>
+      <a href="#" id="tarifa2">Tarifa SMART</a>
+		</ol>
+		<ol>
+			<span>Memoria </span>
+			<select name="memoria" id="memoria">
+				<option value="64">64 GB</option>
+				<option value="128">128 GB</option>
+			</select>
+		</ol>
+		<ol><button id="boton1">Ocultar características técnicas</button></ol>
+	</ul>
+
+	<div id ="características_tecnicas">
+		<h2>Especificaciones técnicas</h2>
+		<div id="caract">
+			<h4>Sistema Operativo</h4>
+			<ul>
+				<ol>iOS 11.0</ol>
+			</ul>
+		</div>
+		<div id="caract">
+			<h4>Memoria</h4>
+			<ul>
+				<ol>Interna <span id="memoriaInterna">64 GB</span></ol>
+				<ol>RAM<span id="memoriaRam"> GB</span></ol>
+			</ul>
+		</div>
+		<div id="caract">
+			<h4>Sistema Operativo</h4>
+			<ul>
+				<ol>iOS 11.0</ol>
+			</ul>
+		</div>
+		<div id="caract">
+			<h4>Conectividad</h4>
+			<ul>
+  		  <ol>Email <span>POP IMAP</span></ol>
+  		  <ol>Wifi</ol>
+        <ol>Bluetooth</ol>
+  		  <ol>Usb</ol>
+  		  <ol>Infrarrojos</ol>
+  		  <ol>GPS</ol>
+      </ul>
+		</div>
+		<div id="caract">
+  		<h4>Duración batería</h4>
+  		<ul>
+  			<ol>Espera <span>0 horas</span></ol>
+  			<ol>Conversación <span>14 horas</span></ol>
+  		</ul>
+	   </div>
+
+	</div>
+
